@@ -9,7 +9,7 @@ async function run() {
 
   await api.isReady;
 
-  const signer = createSigner(keyring.createFromUri(uri));
+  const signer = createSigner(keyring.createFromUri(uri as string));
   console.log(signer.address)
   const contractFactory = await getContractFactory('skyekiwi', signer);
   const contract = await contractFactory.deploy('new');

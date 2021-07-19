@@ -1,9 +1,9 @@
 {
   "metadataVersion": "0.1.0",
   "source": {
-    "hash": "0xc1f380c4eba0108e7bc277599c21165b36a17592bc95152d977de4f4b440969e",
-    "language": "ink! 3.0.0-rc2",
-    "compiler": "rustc 1.53.0-nightly"
+    "hash": "0xeb7d85abcb44adcbc5b6b48f22ed53c073e7e540bd44f2a7e7f6534909b302fd",
+    "language": "ink! 3.0.0-rc3",
+    "compiler": "rustc 1.55.0-nightly"
   },
   "contract": {
     "name": "skyekiwi",

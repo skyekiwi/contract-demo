@@ -78,7 +78,7 @@ mod skye_kiwi {
         owner: AccountId,
     }
 
-    impl SkyePassVault {
+    impl SkyeKiwiFiles {
         #[ink(constructor)]
         pub fn new() -> Self {
             Self {
