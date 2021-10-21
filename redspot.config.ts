@@ -41,7 +41,7 @@ export default {
       explorerUrl: 'https://polkadot.js.org/apps/#/explorer/query/',
     },
     jupiter: {
-      endpoint: 'wss://jupiter-poa.elara.patract.io',
+      endpoint: 'wss://ws.jupiter-poa.patract.cn',
       gasLimit: '400000000000',
       accounts: [process.env.SEED_PHRASE],
       types: {

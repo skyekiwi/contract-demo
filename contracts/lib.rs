@@ -15,7 +15,7 @@ mod skye_kiwi {
     const IPFS_CID_LEN: usize = 46;
     #[ink(storage)]
     #[derive(Default)]
-    pub struct SkyeKiwiFiles {
+    pub struct SkyeKiwi {
         vault_owner: StorageHashMap<VaultId, AccountId>,
         vault_operators: StorageHashMap<(VaultId, AccountId), ()>,
         vault_metadata: StorageHashMap<VaultId, String>,
@@ -78,7 +78,7 @@ mod skye_kiwi {
         owner: AccountId,
     }
 
-    impl SkyePassVault {
+    impl SkyeKiwi {
         #[ink(constructor)]
         pub fn new() -> Self {
             Self {
