@@ -69,11 +69,11 @@ A good general guide to setup the environment for Substrate environment can be f
 Codes are tested with the following environment:
 
 `binaryen`: `version 101` <br/>
-`cargo`: `cargo 1.51.0 (43b129a20 2021-03-16)` <br/>
+`cargo`: `cargo 1.55.0 (32da73ab1 2021-08-23)` <br/>
 `cargo-contract`:  `cargo-contract 0.10.0` <br/>
 `node`: `v14.16.0` <br/>
 `rust`: `rustc 1.51.0 (2fd73fabe 2021-03-23)` <br/><br/>
-`canvas`: `canvas 0.1.0-385c4cc-x86_64-macos` <br/>
+`canvas`: `canvas 0.1.0-25fd60f-x86_64-linux-gnu` <br/>
 `OS Version`: `macOS Big Sur 11.0.1` <br/>
 
 `ts-node`: `v10.0.0` <br/>

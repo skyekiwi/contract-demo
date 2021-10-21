@@ -171,7 +171,7 @@ describe('SkyeKiwi Smart Contract', () => {
     expect((await contract.query.getMetadata(0)).output).to.equal(newMetadata[2])
   })
 
-  it('only allows owner to nominate or remove members', async () => {
+  it('only allows owner to nominate members', async () => {
     const { contract, sender1, sender2, sender3, sender4 } = await setup();
 
     // sender1 creates a vault
